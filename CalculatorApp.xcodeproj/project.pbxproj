@@ -12,6 +12,7 @@
 		FBD0452420AB8D3600C93469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD0452220AB8D3600C93469 /* Main.storyboard */; };
 		FBD0452620AB8D3600C93469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD0452520AB8D3600C93469 /* Assets.xcassets */; };
 		FBD0452920AB8D3600C93469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD0452720AB8D3600C93469 /* LaunchScreen.storyboard */; };
+		FBD0453120B49AA000C93469 /* StudentsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBD0453020B49AA000C93469 /* StudentsList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FBD0452520AB8D3600C93469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD0452820AB8D3600C93469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD0452A20AB8D3600C93469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD0453020B49AA000C93469 /* StudentsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StudentsList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FBD0451E20AB8D3600C93469 /* AppDelegate.swift */,
 				FBD0452020AB8D3600C93469 /* ViewController.swift */,
+				FBD0453020B49AA000C93469 /* StudentsList.plist */,
 				FBD0452220AB8D3600C93469 /* Main.storyboard */,
 				FBD0452520AB8D3600C93469 /* Assets.xcassets */,
 				FBD0452720AB8D3600C93469 /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				FBD0452920AB8D3600C93469 /* LaunchScreen.storyboard in Resources */,
 				FBD0452620AB8D3600C93469 /* Assets.xcassets in Resources */,
+				FBD0453120B49AA000C93469 /* StudentsList.plist in Resources */,
 				FBD0452420AB8D3600C93469 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				FBD0452F20AB8D3600C93469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
